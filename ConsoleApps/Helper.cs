@@ -151,6 +151,42 @@ namespace ConsoleApps
             return int.Parse(_val);
         }
 
+        public static int CheckForNumberPow(string str)
+        {
+            string _val = "";
+            ConsoleKeyInfo key;
+            Console.CursorVisible = true;
+
+            do
+            {
+                key = Console.ReadKey(true);
+                if (key.Key != ConsoleKey.Backspace)
+                {
+                    if (str.Contains(key.KeyChar.ToString()) && _val.Length < 5)
+                    {
+                        _val += key.KeyChar;
+                        Console.Write(key.KeyChar);
+                    }
+                }
+                else
+                {
+                    if (key.Key == ConsoleKey.Backspace && _val.Length > 0)
+                    {
+                        _val = _val.Substring(0, (_val.Length - 1));
+                        Console.Write("\b \b");
+                    }
+                }
+                if (key.Key == ConsoleKey.Enter && _val.Length > 0)
+                {
+                    break;
+                }
+            } while (true);
+
+            Console.WriteLine();
+
+            return int.Parse(_val);
+        }
+
         public static int CheckForYESorNO(string str)
         {
             ConsoleKeyInfo key;

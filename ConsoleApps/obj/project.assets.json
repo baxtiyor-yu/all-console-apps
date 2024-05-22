@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harhi\\source\\repos\\ConsoleApps\\ConsoleApps.csproj",
+      "projectUniqueName": "C:\\Users\\harhi\\OneDrive\\Рабочий стол\\ggit\\all-console-apps\\ConsoleApps\\ConsoleApps.csproj",
       "projectName": "ConsoleApps",
-      "projectPath": "C:\\Users\\harhi\\source\\repos\\ConsoleApps\\ConsoleApps.csproj",
+      "projectPath": "C:\\Users\\harhi\\OneDrive\\Рабочий стол\\ggit\\all-console-apps\\ConsoleApps\\ConsoleApps.csproj",
       "packagesPath": "C:\\Users\\harhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harhi\\source\\repos\\ConsoleApps\\obj\\",
+      "outputPath": "C:\\Users\\harhi\\OneDrive\\Рабочий стол\\ggit\\all-console-apps\\ConsoleApps\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\harhi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ConsoleApps.CalculatorApplication
+namespace ConsoleApps.AppCalculator
 {
     internal class CheckInput
     {
@@ -35,10 +35,6 @@ namespace ConsoleApps.CalculatorApplication
                         {
                             _val = _val.Substring(0, (_val.Length - 1));
                         }
-                        //else if ()
-                        //{
-                        //    _val = _val.Substring(0, (_val.Length - 1));
-                        //}
                         else
                         {
                             Console.Write(key.KeyChar);

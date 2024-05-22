@@ -1,6 +1,6 @@
 ﻿using ConsoleApps.AppFigures;
 using ConsoleApps.AppPow;
-using ConsoleApps.CalculatorApplication;
+using ConsoleApps.AppCalculator;
 using Snake;
 
 namespace ConsoleApps
@@ -9,31 +9,30 @@ namespace ConsoleApps
     {
         static void Main(string[] args)
         {
-            bool choice = true;
-            while (choice)
+            while (true)
             {
                 int menuOpt = Menu.ChooseMenu();
 
                 switch (menuOpt)
                 {
                     case 1:
-                        SnakeApp.SnakeMain();
-                        break;
-
-                    case 2:
                         CalculatorApp.CalcMain();
                         break;
 
-                    case 3:
+                    case 2:
                         FiguresApp.FiguresMain();
                         break;
 
-                    case 4:
+                    case 3:                        
                         PowApp.PowMain();
                         break;
 
+                    case 4:                        
+                        SnakeApp.SnakeMain();
+                        break;
+
                     case 5:
-                        choice = false;
+                        Environment.Exit(0);
                         break;
 
                     default:

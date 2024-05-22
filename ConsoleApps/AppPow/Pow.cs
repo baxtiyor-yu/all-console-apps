@@ -7,14 +7,13 @@ namespace ConsoleApps.AppPow
     {
         internal void CalculatePow()
         {
-            //bool again = true;
             do
             {
                 Console.Clear();
 
                 Console.Write("Darajani kiriting: ");
 
-                var daraja = Helper.CheckForNumber("01");
+                var daraja = Helper.CheckForNumberPow("0123456789");
 
                 Console.WriteLine("\n" + TwoPowX(daraja) + "\n");
 

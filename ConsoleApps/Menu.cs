@@ -27,10 +27,10 @@ namespace ConsoleApps
             {
                 Console.SetCursorPosition(left, top);
 
-                Console.WriteLine($"    {(option == 1 ? decorator : "   ")}Ilon o'yini\u001b[0m");
-                Console.WriteLine($"    {(option == 2 ? decorator : "   ")}Kalkulyator\u001b[0m");
-                Console.WriteLine($"    {(option == 3 ? decorator : "   ")}Shakllar\u001b[0m");
-                Console.WriteLine($"    {(option == 4 ? decorator : "   ")}Darajaga ko'tarish\u001b[0m");
+                Console.WriteLine($"    {(option == 1 ? decorator : "   ")}Kalkulyator\u001b[0m");
+                Console.WriteLine($"    {(option == 2 ? decorator : "   ")}Shakllar\u001b[0m");
+                Console.WriteLine($"    {(option == 3 ? decorator : "   ")}Darajaga ko'tarish\u001b[0m");
+                Console.WriteLine($"    {(option == 4 ? decorator : "   ")}Ilon o'yini\u001b[0m");
                 Console.WriteLine($"    {(option == 5 ? decorator : "   ")}Chiqish\u001b[0m");
 
                 key = Console.ReadKey(true);

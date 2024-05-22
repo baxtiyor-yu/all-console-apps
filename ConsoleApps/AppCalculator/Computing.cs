@@ -1,32 +1,32 @@
-﻿using Snake;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApps.CalculatorApplication
+﻿
+namespace ConsoleApps.AppCalculator
 {
     internal class Computing
     {
         public void StartComputing()
         {
-           
-            bool again = true;
-            while (again)
+            while (true)
             {
                 Console.Clear();
                 var expressionStr = CheckInput.Checker();
-                var res = new Calculator().Calculate(expressionStr);
-                Console.WriteLine("\nresult: {0};", res);
+                try
+                {
+                    var res = new Calculator().Calculate(expressionStr);
+                    Console.WriteLine("\nresult: {0};", res);
+                }
+                catch (CalcException e)
+                {
+                    Console.WriteLine("\nresult: {0};", e.Message);
+                }
 
                 Helper.DisplayMessage("Try again? (y/n)");
 
                 if (!Console.ReadKey(false).Key.Equals(ConsoleKey.Y))
                 {
-                    again = false;
+                    Console.Clear();
+                    break;
                 }
-            }
+            }        
         }
     }
 }

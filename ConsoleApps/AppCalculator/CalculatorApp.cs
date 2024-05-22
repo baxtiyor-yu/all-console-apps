@@ -1,8 +1,5 @@
-﻿using ConsoleApps;
-using ConsoleApps.CalculatorApplication;
-using Snake;
-
-namespace ConsoleApps.CalculatorApplication
+﻿
+namespace ConsoleApps.AppCalculator
 {
     internal class CalculatorApp
     {        

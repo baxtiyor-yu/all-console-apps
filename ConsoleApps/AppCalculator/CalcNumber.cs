@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApps.CalculatorApplication
+﻿
+namespace ConsoleApps.AppCalculator
 {
     internal class CalcNumber : CalcPart
     {

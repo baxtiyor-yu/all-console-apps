@@ -12,3 +12,18 @@ C:\Users\harhi\source\repos\ConsoleApps\obj\Debug\net8.0-windows\refint\ConsoleA
 C:\Users\harhi\source\repos\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.pdb
 C:\Users\harhi\source\repos\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.genruntimeconfig.cache
 C:\Users\harhi\source\repos\ConsoleApps\obj\Debug\net8.0-windows\ref\ConsoleApps.dll
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\bin\Debug\net8.0-windows\ConsoleApps.exe
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\bin\Debug\net8.0-windows\ConsoleApps.deps.json
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\bin\Debug\net8.0-windows\ConsoleApps.runtimeconfig.json
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\bin\Debug\net8.0-windows\ConsoleApps.dll
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\bin\Debug\net8.0-windows\ConsoleApps.pdb
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.AssemblyInfoInputs.cache
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.AssemblyInfo.cs
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.csproj.CoreCompileInputs.cache
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.sourcelink.json
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.dll
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\refint\ConsoleApps.dll
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.pdb
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ConsoleApps.genruntimeconfig.cache
+C:\Users\harhi\OneDrive\Рабочий стол\ggit\all-console-apps\ConsoleApps\obj\Debug\net8.0-windows\ref\ConsoleApps.dll
